@@ -1,0 +1,22 @@
+{
+    "name": "mucan54/module-orderdetails",
+    "description": "Order details",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Can Ozdemir",
+            "email": "mucan54@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mucan\\OrderDetails\\": ""
+        }
+    }
+}
