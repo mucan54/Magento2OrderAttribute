@@ -10,7 +10,7 @@
 
 
 ## Main Functionalities
-Order details
+Adding an address attribute to order address.
 
 ## Installation
 \* = in production please use the `--keep-generated` option
@@ -23,11 +23,7 @@ Order details
  - Flush the cache by running `php bin/magento cache:flush`
  
 ## Specifications
-
- - Model
-    - OrderDetails
- 
-A new order detials object will be generated for every order automatically
+Generates a new attribute for addresses which will apeear on checkout and will be shown on order info.
 
 
 ## Attributes
