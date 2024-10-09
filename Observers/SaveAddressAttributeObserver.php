@@ -16,6 +16,10 @@ use Psr\Log\LoggerInterface as Logger;
  */
 class SaveAddressAttributeObserver implements ObserverInterface
 {
+    /**
+     * @var Logger
+     */
+    protected $logger;
 
     /**
      * @param Logger $logger
